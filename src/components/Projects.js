@@ -14,7 +14,6 @@ export const Projects = () => {
 
   const Akeo = [
     {
-      
       description: "Data Graphing and Fitting",
       imgUrl: projImg1,
     },
@@ -39,7 +38,58 @@ export const Projects = () => {
       imgUrl: projImg6,
     },
   ];
-
+  const Personal = [
+    {
+      description: "Data Graphing and Fitting",
+      imgUrl: projImg1,
+    },
+    {
+      description: "Cleaning and Compiling of Data",
+      imgUrl: projImg2,
+    },
+    {
+      description: "Sentiment APIs",
+      imgUrl: projImg3,
+    },
+    {
+      description: "Twitter API Tools",
+      imgUrl: projImg4,
+    },
+    {
+      description: "Design & Development",
+      imgUrl: projImg5,
+    },
+    {
+      description: "Design & Development",
+      imgUrl: projImg6,
+    },
+  ];
+  const Contract = [
+    {
+      description: "Data Graphing and Fitting",
+      imgUrl: projImg1,
+    },
+    {
+      description: "Cleaning and Compiling of Data",
+      imgUrl: projImg2,
+    },
+    {
+      description: "Sentiment APIs",
+      imgUrl: projImg3,
+    },
+    {
+      description: "Twitter API Tools",
+      imgUrl: projImg4,
+    },
+    {
+      description: "Design & Development",
+      imgUrl: projImg5,
+    },
+    {
+      description: "Design & Development",
+      imgUrl: projImg6,
+    },
+  ];
 
 
   return (
@@ -77,10 +127,26 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <Row>
+                        {
+                          Personal.map((Personal, index) => {
+                            return (
+                                <ProjectCard key={index}{...Personal}/>
+                            )
+                          })
+                        }
+                      </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <Row>
+                        {
+                          Contract.map((Contract, index) => {
+                            return (
+                                <ProjectCard key={index}{...Contract}/>
+                            )
+                          })
+                        }
+                      </Row>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
