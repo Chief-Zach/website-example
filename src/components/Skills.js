@@ -34,25 +34,36 @@ export const Skills = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <h2>About Skills</h2>
-                        <p>I have learned different programming languages ​​so far and as far as my skills are concerned<br></br></p>
+                        <h2>Skills</h2>
+                        <p>I have experience working with a variety of different tools with Python, as well as other
+                            programming languages<br></br></p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <img src={tensorflow} alt="Image" />
+                                <h5>TensorFlow</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h5>English</h5>
+                                <h5>MatplotLib</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Image" />
-                                <h5>Logo Design</h5>
+                                <h5>Flask (for APIs)</h5>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <h5>Pandas</h5>
                             </div>
+                            <div className="item">
+                                <img src={meter1} alt="Image" />
+                                <h5>C++</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="Image" />
+                                <h5>Selenium</h5>
+                            </div>
+
+
                         </Carousel>
                     </div>
                 </div>
