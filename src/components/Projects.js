@@ -2,9 +2,11 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import "bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import graphing from "../assets/img/graphing.png";
+import portfolioTracker from "../assets/img/portfolioTracker.png"
+import portfolioTrackerApi from "../assets/img/portfolioTrackerApi.png"
 import twitterStream from "../assets/img/twitterStuff.png";
 import sentiment1 from "../assets/img/sentiment.png";
-import projImg4 from "../assets/img/csvAI.png";
+import csvAI from "../assets/img/csvAI.png";
 import authImage from "../assets/img/twitterAuth.png";
 import twitterNLP from "../assets/img/twitterNLP.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -21,9 +23,10 @@ export const Projects = () => {
       imgUrl: graphing,
     },
     {
-      description: "This project involved creating a Twitter stream that would allow the user to monitor all mentions" +
-          " of a keyword and input a pre-programed response to each of the Tweets with that keyword",
-      imgUrl: twitterStream,
+      description: "Project involved the creation of an API encouraging the Hyperspace API and various others to create " +
+          "a portfolio tracking application for the Solana blockchain. This portfolio tracker fetches all of the NFTs " +
+          "in a wallet, fetches their last sale, and subtracts that by its current value",
+      imgUrl: portfolioTrackerApi,
     },
     {
       description: "Project involving the use of the Twitter API and TensorFlow to create a dataset of crypto related" +
@@ -33,12 +36,11 @@ export const Projects = () => {
     {
       description: "The data from this project was compiled all into individual CSV and JSON files and cached to " +
           "reduce time spent loading for the API, and reduce the stress on the server.",
-      imgUrl: projImg4,
+      imgUrl: csvAI,
     },
     {
-      description: "The application generated an OAUTH identification code leading to the company landing page creating " +
-          "plug and play for any company or user wanting the service",
-      imgUrl: authImage,
+      description: "I than worked in conjunction with my team to create a frontend for the portfolio tracker",
+      imgUrl: portfolioTracker,
     },
     {
       description: "This project also featured multiple access points allowing users to get sentiment by username, " +
@@ -61,7 +63,7 @@ export const Projects = () => {
     },
     {
       description: "Twitter API Tools",
-      imgUrl: projImg4,
+      imgUrl: csvAI,
     },
     {
       description: "Design & Development",
@@ -78,7 +80,8 @@ export const Projects = () => {
       imgUrl: graphing,
     },
     {
-      description: "Cleaning and Compiling of Data",
+      description: "This project involved creating a Twitter stream that would allow the user to monitor all mentions" +
+          " of a keyword and input a pre-programed response to each of the Tweets with that keyword",
       imgUrl: twitterStream,
     },
     {
@@ -87,10 +90,11 @@ export const Projects = () => {
     },
     {
       description: "Twitter API Tools",
-      imgUrl: projImg4,
+      imgUrl: csvAI,
     },
     {
-      description: "Design & Development",
+      description: "The application generated an OAUTH identification code leading to the company landing page creating " +
+          "plug and play for any company or user wanting the service",
       imgUrl: authImage,
     },
     {
