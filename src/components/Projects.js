@@ -1,7 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/graphing.png";
-import projImg2 from "../assets/img/data.png";
+import projImg2 from "../assets/img/csvAI.png";
 import projImg3 from "../assets/img/sentiment.png";
 import projImg4 from "../assets/img/twitterStuff.png";
 import projImg5 from "../assets/img/fifth work.jpg";
@@ -20,7 +20,8 @@ export const Projects = () => {
       imgUrl: projImg1,
     },
     {
-      description: "Cleaning and Compiling of Data",
+      description: "The data from this project was compiled all into individual CSV and JSON files and cached them to" +
+          "reduce time spent loading for the API, and reduce the stress on the server.",
       imgUrl: projImg2,
     },
     {
@@ -118,6 +119,7 @@ export const Projects = () => {
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
+                      <h3>Hyperspace</h3>
                       <Row>
                         {
                           Akeo.map((Akeo, index) => {
