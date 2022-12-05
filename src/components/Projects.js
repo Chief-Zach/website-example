@@ -13,7 +13,9 @@ import csvAI from "../assets/img/csvAI.png";
 import authImage from "../assets/img/twitterAuth.png";
 import twitterNLP from "../assets/img/twitterNLP.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import stream from "../assets/img/stream.png"
 import dataCleaning from "../assets/img/dataCleaning.png"
+import projectData from "../assets/img/projectData.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -65,8 +67,10 @@ export const Projects = () => {
       imgUrl: canadianPlot,
     },
     {
-      description: "Sentiment APIs",
-      imgUrl: sentiment1,
+      description: "This project uses the Twitter FilteredStream function to track the tweets of a preset list of users " +
+          "and tracks what they tweet about. For example one version of the program tracks what companies users are " +
+          "tweeting about",
+      imgUrl: stream,
     },
     {
       description: "The chat-bot has an array of 5 currently working functions that can process the current time, most " +
@@ -79,8 +83,8 @@ export const Projects = () => {
       imgUrl: dataCleaning,
     },
     {
-      description: "Design & Development",
-      imgUrl: twitterNLP,
+      description: "The data for this project was farmed from the Hyperspace API and aggregated into a single JSON file",
+      imgUrl: projectData,
     },
   ];
   const Contract = [
