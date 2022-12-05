@@ -2,6 +2,11 @@ import meter1 from "../assets/img/meter1.svg";
 import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
 import tensorflow from "../assets/img/tensorflow.webp";
+import matplotlib from "../assets/img/Matplotlib_Logo_191209.webp"
+import flask from "../assets/img/flask-logo.webp"
+import pandas from "../assets/img/Pandas_logo.svg"
+import cpp from "../assets/img/ISO_C++_Logo.svg"
+import selenium from "../assets/img/Selenium_logo (1).svg"
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
@@ -44,23 +49,23 @@ export const Skills = () => {
                                 <h5>TensorFlow</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={matplotlib} alt="Image" />
                                 <h5>MatplotLib</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={flask} alt="Image" />
                                 <h5>Flask (for APIs)</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={pandas} alt="Image" />
                                 <h5>Pandas</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={cpp} alt="Image" />
                                 <h5>C++</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={selenium} alt="Image" />
                                 <h5>Selenium</h5>
                             </div>
 
