@@ -1,4 +1,5 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
+import "bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import graphing from "../assets/img/graphing.png";
 import twitterStream from "../assets/img/twitterStuff.png";
@@ -14,14 +15,14 @@ export const Projects = () => {
 
   const Akeo = [
     {
-      description: "Project using matplotlib and the Hyperspace API to plot the price of an NFT project on Solana " +
-          "against its total listed supply. Also includes and heat map to track Twitter followers, and a " +
+      description: "Project using matplotlib and the Hyperspace API to plot the price of an NFT project on Solana" +
+          " against its total listed supply. Also includes and heat map to track Twitter followers, and a " +
           "polynomial curve fit to track the relationship between variables.",
       imgUrl: graphing,
     },
     {
       description: "This project involved creating a Twitter stream that would allow the user to monitor all mentions" +
-          "of a keyword and input a pre-programed response to each of the Tweets with that keyword",
+          " of a keyword and input a pre-programed response to each of the Tweets with that keyword",
       imgUrl: twitterStream,
     },
     {
@@ -29,7 +30,7 @@ export const Projects = () => {
       imgUrl: projImg3,
     },
     {
-      description: "The data from this project was compiled all into individual CSV and JSON files and cached to" +
+      description: "The data from this project was compiled all into individual CSV and JSON files and cached to " +
           "reduce time spent loading for the API, and reduce the stress on the server.",
       imgUrl: projImg4,
     },
@@ -120,8 +121,8 @@ export const Projects = () => {
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
-                      <h3>Hyperspace</h3>
                       <Row>
+                        <h3>Hyperspace</h3>
                         {
                           Akeo.map((Akeo, index) => {
                             return (
