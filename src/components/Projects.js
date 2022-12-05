@@ -13,6 +13,7 @@ import csvAI from "../assets/img/csvAI.png";
 import authImage from "../assets/img/twitterAuth.png";
 import twitterNLP from "../assets/img/twitterNLP.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import dataCleaning from "../assets/img/dataCleaning.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -73,8 +74,9 @@ export const Projects = () => {
       imgUrl: intents,
     },
     {
-      description: "Design & Development",
-      imgUrl: authImage,
+      description: "The data from this data set had to be cleaned since there were so many NA values which causes " +
+          "problems for the plotting function. This was done using custom made functions specific for this dataset",
+      imgUrl: dataCleaning,
     },
     {
       description: "Design & Development",
