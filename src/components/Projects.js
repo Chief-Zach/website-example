@@ -2,6 +2,8 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import "bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import graphing from "../assets/img/graphing.png";
+import jarvis from "../assets/img/jarvis.png"
+import intents from "../assets/img/intents.png"
 import portfolioTracker from "../assets/img/portfolioTracker.png"
 import portfolioTrackerApi from "../assets/img/portfolioTrackerApi.png"
 import twitterStream from "../assets/img/twitterStuff.png";
@@ -23,7 +25,7 @@ export const Projects = () => {
       imgUrl: graphing,
     },
     {
-      description: "Project involved the creation of an API encouraging the Hyperspace API and various others to create " +
+      description: "Project involved the creation of an API incorporating the Hyperspace API and various others to create " +
           "a portfolio tracking application for the Solana blockchain. This portfolio tracker fetches all of the NFTs " +
           "in a wallet, fetches their last sale, and subtracts that by its current value",
       imgUrl: portfolioTrackerApi,
@@ -50,8 +52,10 @@ export const Projects = () => {
   ];
   const Personal = [
     {
-      description: "Data Graphing and Fitting",
-      imgUrl: graphing,
+      description: "This project uses WIT.AI created by Facebook to recognize the predetermined intents that are created" +
+          " using a supervised training model. It has access to Wikipedia meaning that it can answer most questions " +
+          "and can interact using a range of predetermined responses. ",
+      imgUrl: jarvis,
     },
     {
       description: "Cleaning and Compiling of Data",
@@ -62,8 +66,9 @@ export const Projects = () => {
       imgUrl: sentiment1,
     },
     {
-      description: "Twitter API Tools",
-      imgUrl: csvAI,
+      description: "The chat-bot has an array of 5 currently working functions that can process the current time, most " +
+          "questions, small conversations like hello and goodbye, and currency conversions.",
+      imgUrl: intents,
     },
     {
       description: "Design & Development",
