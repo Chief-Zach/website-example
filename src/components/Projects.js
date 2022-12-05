@@ -16,6 +16,8 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import stream from "../assets/img/stream.png"
 import dataCleaning from "../assets/img/dataCleaning.png"
 import projectData from "../assets/img/projectData.png"
+import degods from "../assets/img/degods.png"
+import degodsData from "../assets/img/degodsData.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -89,8 +91,9 @@ export const Projects = () => {
   ];
   const Contract = [
     {
-      description: "Data Graphing and Fitting",
-      imgUrl: graphing,
+      description: "This was a small project where the only goal was to gather feedback from people Tweeting at a " +
+          "specific user account with specific keywords",
+      imgUrl: degods,
     },
     {
       description: "This project involved creating a Twitter stream that would allow the user to monitor all mentions" +
@@ -102,8 +105,8 @@ export const Projects = () => {
       imgUrl: sentiment1,
     },
     {
-      description: "Twitter API Tools",
-      imgUrl: csvAI,
+      description: "The stream added each Tweet that it found to a text file before being sent off to the customer",
+      imgUrl: degodsData,
     },
     {
       description: "The application generated an OAUTH identification code leading to the company landing page creating " +
