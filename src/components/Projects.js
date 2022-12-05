@@ -1,9 +1,9 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/forth project.jpg";
-import projImg2 from "../assets/img/second work.jpg";
-import projImg3 from "../assets/img/project1.jpg";
-import projImg4 from "../assets/img/first work.jpg";
+import projImg1 from "../assets/img/graphing.png";
+import projImg2 from "../assets/img/data.png";
+import projImg3 from "../assets/img/sentiment.png";
+import projImg4 from "../assets/img/twitterStuff.png";
 import projImg5 from "../assets/img/fifth work.jpg";
 import projImg6 from "../assets/img/12345.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -15,19 +15,19 @@ export const Projects = () => {
   const projects = [
     {
       
-      description: "Design & Development",
+      description: "Data Graphing and Fitting",
       imgUrl: projImg1,
     },
     {
-      description: "Design & Development",
+      description: "Cleaning and Compiling of Data",
       imgUrl: projImg2,
     },
     {
-      description: "Design & Development",
+      description: "Sentiment APIs",
       imgUrl: projImg3,
     },
     {
-      description: "Design & Development",
+      description: "Twitter API Tools",
       imgUrl: projImg4,
     },
     {
