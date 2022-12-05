@@ -45,11 +45,11 @@ export const Projects = () => {
   const Personal = [
     {
       description: "Data Graphing and Fitting",
-      imgUrl: projImg1,
+      imgUrl: graphing,
     },
     {
       description: "Cleaning and Compiling of Data",
-      imgUrl: projImg2,
+      imgUrl: twitterStream,
     },
     {
       description: "Sentiment APIs",
@@ -71,11 +71,11 @@ export const Projects = () => {
   const Contract = [
     {
       description: "Data Graphing and Fitting",
-      imgUrl: projImg1,
+      imgUrl: graphing,
     },
     {
       description: "Cleaning and Compiling of Data",
-      imgUrl: projImg2,
+      imgUrl: twitterStream,
     },
     {
       description: "Sentiment APIs",
