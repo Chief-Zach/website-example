@@ -1,9 +1,9 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/graphing.png";
-import projImg2 from "../assets/img/csvAI.png";
+import graphing from "../assets/img/graphing.png";
+import twitterStream from "../assets/img/twitterStuff.png";
 import projImg3 from "../assets/img/sentiment.png";
-import projImg4 from "../assets/img/twitterStuff.png";
+import projImg4 from "../assets/img/csvAI.png";
 import projImg5 from "../assets/img/fifth work.jpg";
 import projImg6 from "../assets/img/12345.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -17,19 +17,20 @@ export const Projects = () => {
       description: "Project using matplotlib and the Hyperspace API to plot the price of an NFT project on Solana " +
           "against its total listed supply. Also includes and heat map to track Twitter followers, and a " +
           "polynomial curve fit to track the relationship between variables.",
-      imgUrl: projImg1,
+      imgUrl: graphing,
     },
     {
-      description: "The data from this project was compiled all into individual CSV and JSON files and cached them to" +
-          "reduce time spent loading for the API, and reduce the stress on the server.",
-      imgUrl: projImg2,
+      description: "This project involved creating a Twitter stream that would allow the user to monitor all mentions" +
+          "of a keyword and input a pre-programed response to each of the Tweets with that keyword",
+      imgUrl: twitterStream,
     },
     {
       description: "Sentiment APIs",
       imgUrl: projImg3,
     },
     {
-      description: "Twitter API Tools",
+      description: "The data from this project was compiled all into individual CSV and JSON files and cached to" +
+          "reduce time spent loading for the API, and reduce the stress on the server.",
       imgUrl: projImg4,
     },
     {
