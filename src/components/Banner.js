@@ -64,7 +64,7 @@ export const Banner = () => {
                   For work I manage a team of developers and create a variety of APIs for sentiment analysis as well as clean
                   and process data into easy to understand formats for companies.
         </p>
-                  <link href="https://www.linkedin.com/in/zacharyfrank">Let’s Connect <ArrowRightCircle size={25} /></link>
+                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
