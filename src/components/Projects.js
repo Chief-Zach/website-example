@@ -12,7 +12,7 @@ import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
 
-  const projects = [
+  const Akeo = [
     {
       
       description: "Data Graphing and Fitting",
@@ -40,6 +40,8 @@ export const Projects = () => {
     },
   ];
 
+
+
   return (
     <section className="project" id="project">
       <Container>
@@ -66,18 +68,15 @@ export const Projects = () => {
                     <Tab.Pane eventKey="first">
                       <Row>
                         {
-                          projects.map((project, index) => {
+                          Akeo.map((Akeo, index) => {
                             return (
-                              <ProjectCard
-                                key={index}
-                                {...project}
-                                />
+                              <ProjectCard key={index}{...Akeo}/>
                             )
                           })
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
+                    <Tab.Pane eventKey="second">
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
