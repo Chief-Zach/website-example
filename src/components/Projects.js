@@ -14,7 +14,9 @@ export const Projects = () => {
 
   const Akeo = [
     {
-      description: "Data Graphing and Fitting",
+      description: "Project using matplotlib and the Hyperspace API to plot the price of an NFT project on Solana " +
+          "against its total listed supply. Also includes and heat map to track Twitter followers, and a " +
+          "polynomial curve fit to track the relationship between variables.",
       imgUrl: projImg1,
     },
     {
@@ -106,6 +108,9 @@ export const Projects = () => {
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
                       <Nav.Link eventKey="first">Akeo Tech</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="first">Akeo Tech2</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="second">Personal Time</Nav.Link>

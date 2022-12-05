@@ -24,3 +24,7 @@ yarn-error.log*
 
 # environment variables
 .env
+/.idea/.gitignore
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/website-example.iml
