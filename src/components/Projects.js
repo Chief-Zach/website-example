@@ -110,9 +110,6 @@ export const Projects = () => {
                       <Nav.Link eventKey="first">Akeo Tech</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Akeo Tech2</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
                       <Nav.Link eventKey="second">Personal Time</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
