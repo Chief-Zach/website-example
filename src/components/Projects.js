@@ -3,10 +3,10 @@ import "bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import graphing from "../assets/img/graphing.png";
 import twitterStream from "../assets/img/twitterStuff.png";
-import projImg3 from "../assets/img/sentiment.png";
+import sentiment1 from "../assets/img/sentiment.png";
 import projImg4 from "../assets/img/csvAI.png";
-import projImg5 from "../assets/img/fifth work.jpg";
-import projImg6 from "../assets/img/12345.jpg";
+import authImage from "../assets/img/twitterAuth.png";
+import twitterNLP from "../assets/img/twitterNLP.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -26,8 +26,9 @@ export const Projects = () => {
       imgUrl: twitterStream,
     },
     {
-      description: "Sentiment APIs",
-      imgUrl: projImg3,
+      description: "Project involving the use of the Twitter API and TensorFlow to create a dataset of crypto related" +
+          " keywords allowing the user of the API to get the sentiment of crypto related tweets",
+      imgUrl: sentiment1,
     },
     {
       description: "The data from this project was compiled all into individual CSV and JSON files and cached to " +
@@ -35,12 +36,14 @@ export const Projects = () => {
       imgUrl: projImg4,
     },
     {
-      description: "Design & Development",
-      imgUrl: projImg5,
+      description: "The application generated an OAUTH identification code leading to the company landing page creating " +
+          "plug and play for any company or user wanting the service",
+      imgUrl: authImage,
     },
     {
-      description: "Design & Development",
-      imgUrl: projImg6,
+      description: "This project also featured multiple access points allowing users to get sentiment by username, " +
+          "project name, or keyword. It also features a OAUTH key system with SHA-256 encryption to encrypt user keys ",
+      imgUrl: twitterNLP,
     },
   ];
   const Personal = [
@@ -54,7 +57,7 @@ export const Projects = () => {
     },
     {
       description: "Sentiment APIs",
-      imgUrl: projImg3,
+      imgUrl: sentiment1,
     },
     {
       description: "Twitter API Tools",
@@ -62,11 +65,11 @@ export const Projects = () => {
     },
     {
       description: "Design & Development",
-      imgUrl: projImg5,
+      imgUrl: authImage,
     },
     {
       description: "Design & Development",
-      imgUrl: projImg6,
+      imgUrl: twitterNLP,
     },
   ];
   const Contract = [
@@ -80,7 +83,7 @@ export const Projects = () => {
     },
     {
       description: "Sentiment APIs",
-      imgUrl: projImg3,
+      imgUrl: sentiment1,
     },
     {
       description: "Twitter API Tools",
@@ -88,11 +91,11 @@ export const Projects = () => {
     },
     {
       description: "Design & Development",
-      imgUrl: projImg5,
+      imgUrl: authImage,
     },
     {
       description: "Design & Development",
-      imgUrl: projImg6,
+      imgUrl: twitterNLP,
     },
   ];
 
