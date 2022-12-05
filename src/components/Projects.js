@@ -3,6 +3,7 @@ import "bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import graphing from "../assets/img/graphing.png";
 import jarvis from "../assets/img/jarvis.png"
+import canadianPlot from "../assets/img/subdivision.png"
 import intents from "../assets/img/intents.png"
 import portfolioTracker from "../assets/img/portfolioTracker.png"
 import portfolioTrackerApi from "../assets/img/portfolioTrackerApi.png"
@@ -58,8 +59,9 @@ export const Projects = () => {
       imgUrl: jarvis,
     },
     {
-      description: "Cleaning and Compiling of Data",
-      imgUrl: twitterStream,
+      description: "Project using the Pandas library and data from the Canadian government on mean house sales by " +
+          "subdivisions across Canada, sorted by the province that they are located in",
+      imgUrl: canadianPlot,
     },
     {
       description: "Sentiment APIs",
