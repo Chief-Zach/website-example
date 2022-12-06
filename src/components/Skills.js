@@ -1,4 +1,4 @@
-import tensorflow from "../assets/img/tensorflow.webp";
+import tensorflow from "../assets/img/tensorflow.png";
 import matplotlib from "../assets/img/Matplotlib_Logo_191209.webp"
 import flask from "../assets/img/flask-logo.webp"
 import pandas from "../assets/img/Pandas_logo.svg"
