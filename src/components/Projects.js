@@ -10,12 +10,14 @@ import portfolioTrackerApi from "../assets/img/portfolioTrackerApi.png"
 import twitterStream from "../assets/img/twitterStuff.png";
 import sentiment1 from "../assets/img/sentiment.png";
 import csvAI from "../assets/img/csvAI.png";
+import scam1 from "../assets/img/scam1.png"
 import authImage from "../assets/img/twitterAuth.png";
 import twitterNLP from "../assets/img/twitterNLP.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import stream from "../assets/img/stream.png"
 import dataCleaning from "../assets/img/dataCleaning.png"
 import projectData from "../assets/img/projectData.png"
+import scam2 from "../assets/img/sacm2.png"
 import degods from "../assets/img/degods.png"
 import degodsData from "../assets/img/degodsData.png"
 import 'animate.css';
@@ -101,8 +103,10 @@ export const Projects = () => {
       imgUrl: twitterStream,
     },
     {
-      description: "Sentiment APIs",
-      imgUrl: sentiment1,
+      description: "This was one of my favorite projects in which I created a program that can track the potential " +
+          "financial scams occurring on the Solana blockchain. This was done by sorting and parsing up to ten thousand" +
+          " Solana transactions up to a year previous to track the most common inflows and outflows.",
+      imgUrl: scam1,
     },
     {
       description: "The stream added each Tweet that it found to a text file before being sent off to the customer",
@@ -114,8 +118,9 @@ export const Projects = () => {
       imgUrl: authImage,
     },
     {
-      description: "Design & Development",
-      imgUrl: twitterNLP,
+      description: "I than created a node edge graphing system in order to track these transactions visually. This " +
+          "graphing system is still a work in progress.",
+      imgUrl: scam2,
     },
   ];
 
