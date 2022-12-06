@@ -1,9 +1,8 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from '../assets/img/logo.png';
+import logo from '../assets/img/logo.jpg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import discord from "../assets/img/discord.webp"
-import navIcon3 from '../assets/img/nav-icon3.svg';
 import twitter from '../assets/img/twitter.webp'
 import { HashLink } from 'react-router-hash-link';
 import {
