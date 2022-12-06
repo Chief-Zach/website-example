@@ -1,5 +1,5 @@
 import tensorflow from "../assets/img/tensorflow.png";
-import matplotlib from "../assets/img/Matplotlib_Logo_191209.webp"
+import matplotlib from "../assets/img/Matplotlib_Logo_191209.png"
 import flask from "../assets/img/flask-logo.webp"
 import pandas from "../assets/img/Pandas_logo.svg"
 import cpp from "../assets/img/ISO_C++_Logo.svg"
