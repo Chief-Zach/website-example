@@ -150,7 +150,6 @@ export const Projects = () => {
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
                       <Row>
-                        <h3>Hyperspace</h3>
                         {
                           Akeo.map((Akeo, index) => {
                             return (
