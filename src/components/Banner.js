@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "AI Engineer", "Data Scientist", "Team Leader" ];
+  const toRotate = [ "AI Developer", "Data Scientist", "Team Leader" ];
   const period = 2000;
 
   useEffect(() => {
@@ -57,7 +57,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Zach`}<br /> <span className="txt-rotate" dataPeriod="1000" data-rotate=
-                    '[ "AI Engineer", "Data Scientist", "Team Leader" ]'>
+                    '[ "AI Developer", "Data Scientist", "Team Leader" ]'>
                   <span className="wrap">{text}</span></span></h1>
                 <p>Hello! My name is Zach and I am currently studying Computer Science with a specialization in Data Science
                   in Ontario. I currently am the CTO of Akeo Tech, a data aggregation and node provider on the Solana blockchain.
