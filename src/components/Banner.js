@@ -60,7 +60,7 @@ export const Banner = () => {
                     '[ "AI Developer", "Data Scientist", "Team Leader" ]'>
                   <span className="wrap">{text}</span></span></h1>
                 <p>Hello! My name is Zach and I am currently studying Computer Science with a specialization in Data Science
-                  in Ontario. I currently am the CTO of Akeo Tech, a data aggregation and node provider on the Solana blockchain.
+                  in Canada. I currently am the CTO of Akeo Tech, a data aggregation and node provider on the Solana blockchain.
                   For work I manage a team of developers and create a variety of APIs for sentiment analysis as well as clean
                   and process data into easy to understand formats for companies.
         </p>
