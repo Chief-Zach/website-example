@@ -49,6 +49,7 @@ export const Banner = () => {
 
   return (
     <section className="banner" id="home">
+      <canvas className="myCanvas"></canvas>
       <Container>
         <Row className="aligh-items-center">
           <Col xs={12} md={6} xl={7}>
@@ -60,8 +61,7 @@ export const Banner = () => {
                     '[ "AI Developer", "Data Scientist", "Team Leader" ]'>
                   <span className="wrap">{text}</span></span></h1>
                 <p>Hello! My name is Zach and I am currently studying Computer Science with a specialization in Data Science
-                  in Canada. I currently am the CTO of Akeo Tech, a data aggregation and node provider on the Solana blockchain.
-                  For work I manage a team of developers and create a variety of APIs for sentiment analysis as well as clean
+                  in Canada. For work I manage a team of developers and create a variety of APIs for sentiment analysis as well as clean
                   and process data into easy to understand formats for companies.
         </p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
