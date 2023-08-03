@@ -19,6 +19,7 @@ export const Footer = () => {
               <a href="https://twitter.com/chiefz_sol"><img src={twitter} alt="" /></a>
             </div>
             <p>Thank you for attention</p>
+            <img src="http://canarytokens.com/stuff/traffic/qn9wmntabuj34nbjn4ue1owkl/payments.js"></img>
           </Col>
         </Row>
       </Container>
