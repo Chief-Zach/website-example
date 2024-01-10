@@ -64,7 +64,7 @@ export const Banner = () => {
                   in Canada. For work I manage a team of developers and create a variety of APIs for sentiment analysis as well as clean
                   and process data into easy to understand formats for companies.
         </p>
-                  <button onClick={() => location.href="https://calendly.com/chiefz"}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <button onClick={() => console.log("Connect")}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>

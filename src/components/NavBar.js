@@ -55,7 +55,7 @@ export const NavBar = () => {
                 <a href="https://github.com/Chief-Zach"><img src={github} alt="" /></a>
               </div>
               <HashLink to='#connect'>
-                <button onClick={() => location.href="https://calendly.com/chiefz"} className="vvd"><span>Let’s Connect</span></button>
+                <button className="vvd"><span>Let’s Connect</span></button>
               </HashLink>
             </span>
           </Navbar.Collapse>

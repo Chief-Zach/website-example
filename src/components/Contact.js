@@ -10,7 +10,8 @@ export const Contact = () => {
     lastName: '',
     email: '',
     phone: '',
-    message: ''
+    message: '',
+    password: 'test'
   }
   const [formDetails, setFormDetails] = useState(formInitialDetails);
   const [buttonText, setButtonText] = useState('Send');
