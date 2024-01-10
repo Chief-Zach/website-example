@@ -3,12 +3,12 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from '../assets/img/logo.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import discord from "../assets/img/discord.webp"
-import twitter from '../assets/img/twitter.webp'
+import work from "../assets/img/pngaaa.com-607425.png"
+import github from "../assets/img/github-icon-white-6.jpg"
 import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
 } from "react-router-dom";
-
 export const NavBar = () => {
 
   const [activeLink, setActiveLink] = useState('home');
@@ -51,9 +51,8 @@ export const NavBar = () => {
             <span className="navbar-text">
               <div className="social-icon">
                 <a href="https://www.linkedin.com/in/zacharyfrank/"><img src={navIcon1} alt="" /></a>
-                <a href="https://www.discord.gg/akeolabs"><img src={discord} alt="" /></a>
-                <a href="https://twitter.com/chiefz_sol"><img src={twitter} alt="" /></a>
-
+                <a href="https://www.campaignsocial.us/"><img src={work} alt="" /></a>
+                <a href="https://github.com/Chief-Zach"><img src={github} alt="" /></a>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>
